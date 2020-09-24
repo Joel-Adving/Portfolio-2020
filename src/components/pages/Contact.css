@@ -1,11 +1,13 @@
 .contact-container {
-  margin: 10rem auto;
+  margin: 9rem auto;
 }
 
 .contact-container > h1 {
   margin: auto;
-  border-bottom: 1px solid black;
-  max-width: 200px;
+  /* border-bottom: 1px solid black; */
+  max-width: 300px;
+  font-weight: 200;
+  font-size: 3rem;
 }
 
 .navbar {
@@ -28,7 +30,7 @@
   text-decoration: none;
   color: #000;
   border: 1px solid white;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .contact-item {

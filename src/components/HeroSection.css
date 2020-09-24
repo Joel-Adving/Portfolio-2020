@@ -34,7 +34,7 @@ video {
 .hero-container > p {
   text-align: center;
   color: #fff;
-  margin-top: 8px;
+  margin-top: 4px;
   font-size: 1rem;
   font-weight: 200;
   max-width: 600px;
@@ -69,5 +69,9 @@ video {
 
   .btn {
     width: 100%;
+  }
+
+  .profile-image {
+    margin-top: 4rem;
   }
 }

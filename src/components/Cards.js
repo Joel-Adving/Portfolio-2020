@@ -1,19 +1,33 @@
 import React from "react";
-import CardItem from "./CardItem";
 import "./Cards.css";
+import CardItem from "./CardItem";
 
 function Cards() {
   return (
     <div className="cards">
-      <h1>Technologies I use</h1>
+      <h1>Check out some of my projects!</h1>
       <div className="cards__container">
-        <div className="cards__items">
-          <CardItem src="../images/html-svart.png" />
-          <CardItem src="../images/css-svart.png" />
-          <CardItem src="../images/js-svart.png" />
-          <CardItem src="../images/react-svart.png" />
-          <CardItem src="../images/git-svart.png" />
-          <CardItem src="../images/npm.png" />
+        <div className="cards__wrapper">
+          <ul className="cards__items">
+            <CardItem
+              src="images/quire-better.png"
+              text="A note taking app with local storage"
+              label="Quire.se"
+              path="http://quire.se/"
+            />
+            <CardItem
+              src="images/todolist.png"
+              text="Todo list app wth local strorage and current date"
+              label="Todo List"
+              path="https://github.com/Joel-Adving/todo-list-app"
+            />
+            <CardItem
+              src="images/portfolio.png"
+              text="Portfolio website made with react"
+              label="Portfolio"
+              path="https://github.com/Joel-Adving/portfolio-2020"
+            />
+          </ul>
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "../../App.css";
 import "./Contact.css";
-import Navbar from "../Navbar.js";
+// import Navbar from "../Navbar.js";
 import Footer from "../Footer";
-import Portfolio from "./Portfolio.css";
+// import Portfolio from "./Portfolio.css";
 
 export default function Contact() {
   return (

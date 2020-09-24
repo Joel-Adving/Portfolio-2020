@@ -11,6 +11,7 @@ function Footer() {
       <div className="footer-link">
         <div className="footer-link-wraper">
           <div className="footer-link-items">
+            <h2>&copy; Joel Adving 2020</h2>
             <a
               className="footer-link-icons"
               href="https://www.linkedin.com/in/joel-adving-3385571a0/"
