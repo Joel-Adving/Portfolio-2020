@@ -1,0 +1,58 @@
+.contact-container {
+  margin: 10rem auto;
+}
+
+.contact-container > h1 {
+  margin: auto;
+  border-bottom: 1px solid black;
+  max-width: 200px;
+}
+
+.navbar {
+  color: black;
+}
+
+.contact-item-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-item-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid white;
+  font-weight: 500;
+}
+
+.contact-item {
+  font-size: 1.5rem;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid white;
+}
+
+.contact-item:hover {
+  border-bottom: 1px solid #000000;
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+  /* .contact-container {
+    margin: 1.5rem auto;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+}

@@ -1,0 +1,15 @@
+.footer-container {
+  background-color: #000000;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-link-icons {
+  font-size: 28px;
+  margin: 1.5rem;
+  color: #fff;
+}

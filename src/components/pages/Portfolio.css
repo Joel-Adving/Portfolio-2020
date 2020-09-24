@@ -1,0 +1,20 @@
+.lorem {
+  margin: 0 auto;
+  display: flex;
+  width: 500px;
+  height: 700px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lorem > h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.lorem > p {
+  font-weight: 200;
+  font-size: 1.3rem;
+}
