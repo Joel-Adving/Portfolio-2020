@@ -10,6 +10,12 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src="images/movie-app2.png"
+              text="Movie overview app with an movie database API"
+              label="Movie App"
+              path="http://illegal-approval.surge.sh/"
+            />
+            <CardItem
               src="images/quire-better.png"
               text="A note taking app with local storage"
               label="Quire.se"

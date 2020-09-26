@@ -63,12 +63,14 @@
   padding: 0.5rem 0rem;
   height: 40%;
   font-weight: 200;
-  border: 2px solid white;
 }
 
 .nav-links:hover {
+  border-top: 2px solid rgb(255, 255, 255);
+}
+.nav-links:hover {
   border-bottom: 2px solid rgb(0, 0, 0);
-  transition: all 0.2s ease-out;
+  /* transition: all 0.2s ease-out; */
 }
 
 .fa-bars {
@@ -113,7 +115,6 @@
     padding: 2rem;
     width: 100%;
     display: table;
-    border: 2px solid white;
   }
 
   .nav-links:hover {
@@ -155,7 +156,6 @@
     background-color: transparent;
     color: #fff;
     padding: 14px 20px;
-    border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
 
