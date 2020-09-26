@@ -22,6 +22,9 @@
   color: rgb(255, 255, 255);
 }
 
-body {
-
+.footer-container {
+  clear: both;
+  position: relative;
+  height: 130px;
+  margin-top: -20px;
 }
