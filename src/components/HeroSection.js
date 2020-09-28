@@ -11,7 +11,7 @@ function HeroSection() {
       <img className="profile-image" src="../images/profilbild.jpg" alt="" />
       <h1>Front End Developer</h1>
       <p>
-        Hi! My name is Joel, I'm an front end developer who loves to code
+        Hi! My name is Joel, I'm a front end developer who loves to code
         beautiful and functional websites. I'm currently studying at KYH in
         Stockholm Sweden, and in search for an internship.
       </p>
