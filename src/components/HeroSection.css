@@ -62,11 +62,12 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container > p {
-    max-width: 330px;
+    max-width: 220px;
+    font-size: 11px;
   }
 
   .hero-container > h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .btn-mobile {

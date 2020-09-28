@@ -43,7 +43,7 @@
 
 @media only screen and (max-width: 780px) {
   .icons_container {
-    padding: 1rem;
+    padding: 2rem;
   }
 
   .icons_container > h1 {
@@ -54,6 +54,7 @@
   }
 
   .icons__items {
+    padding-top: 0.6rem;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
