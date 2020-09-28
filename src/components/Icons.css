@@ -1,10 +1,13 @@
 .icons {
   background: #fff;
-  padding: 4rem;
+  padding: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .icons > h1 {
-  margin-top: -1rem;
+  margin-top: -2rem;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,9 +20,22 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .icon {
   display: flex;
   margin: 0.5rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .icon {
+    max-width: 70px;
+  }
+  .icons > h1 {
+    font-size: 1.5rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
 }
