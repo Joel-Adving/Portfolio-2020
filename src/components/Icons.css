@@ -1,12 +1,11 @@
-.icons {
+.icons_container {
   background: #fff;
-  padding: 2rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 6rem;
 }
 
-.icons > h1 {
-  margin-top: -2rem;
+.icons_container > h1 {
+  font-size: 2.5rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
@@ -26,16 +25,40 @@
 
 .icon {
   display: flex;
+  flex-wrap: wrap;
   margin: 0.5rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 968px) {
   .icon {
-    max-width: 70px;
+    width: 70px;
   }
-  .icons > h1 {
+  .icons_container > h1 {
+    font-size: 1.8rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .icons_container {
+    padding: 1rem;
+  }
+
+  .icons_container > h1 {
     font-size: 1.5rem;
-    margin-left: 0.1rem;
-    margin-right: 0.1rem;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .icons__items {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .icon {
+    width: 60px;
   }
 }

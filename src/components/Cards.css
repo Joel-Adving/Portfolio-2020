@@ -123,3 +123,13 @@ h1 {
     margin-bottom: 2rem;
   }
 }
+
+@media only screen and (max-width: 980px) {
+  .cards__container {
+    width: 100%;
+  }
+  .cards__wrapper {
+    width: 267px;
+    margin-bottom: 0;
+  }
+}

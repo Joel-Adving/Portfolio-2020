@@ -54,11 +54,19 @@ video {
 }
 
 @media screen and (max-width: 960px) {
+  .profile-image {
+    margin-top: 0rem;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero-container > p {
     max-width: 330px;
+  }
+
+  .hero-container > h1 {
+    font-size: 2rem;
   }
 
   .btn-mobile {
@@ -71,6 +79,7 @@ video {
   }
 
   .profile-image {
-    margin-top: 4rem;
+    margin-top: 3rem;
+    height: 150px;
   }
 }
