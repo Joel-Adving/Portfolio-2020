@@ -11,7 +11,7 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/movie-app2.png"
-              text="React app with a movie database API"
+              text="App with a movie database API"
               label="Movies App"
               path="http://movies.joeladving.com/"
             />
