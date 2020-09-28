@@ -5,7 +5,8 @@
   margin-bottom: -8.47em;
   padding-top: 6em;
   height: 100vh;
-  overflow: scroll;
+  background-color: white;
+  z-index: -1;
 }
 
 .contact-container > h1 {
@@ -63,5 +64,11 @@
     font-size: 1rem;
     padding: 0.1rem;
     margin: 0.1rem;
+  }
+}
+
+@media only screen and (max-height: 420px) {
+  .contact-container {
+    opacity: 0;
   }
 }
