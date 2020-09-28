@@ -5,7 +5,7 @@
 }
 
 .icons_container > h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0.5rem;
+  width: 80px;
 }
 
 @media only screen and (max-width: 968px) {

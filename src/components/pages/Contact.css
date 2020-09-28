@@ -1,5 +1,7 @@
 .contact-container {
   margin: 8.7rem auto;
+  margin-bottom: 0;
+  height: 100vh;
 }
 
 .contact-container > h1 {
