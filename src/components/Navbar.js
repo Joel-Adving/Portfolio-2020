@@ -1,11 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Button } from "./Button.js";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
+  const [, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -55,7 +54,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle="tbn--outilne">SIGN UP</Button>} */}
         </div>
       </nav>
     </>

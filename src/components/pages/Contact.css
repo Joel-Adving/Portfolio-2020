@@ -4,7 +4,6 @@
 
 .contact-container > h1 {
   margin: auto;
-  /* border-bottom: 1px solid black; */
   max-width: 300px;
   font-weight: 400;
 }
@@ -43,13 +42,4 @@
 .contact-item:hover {
   border-bottom: 1px solid #000000;
   transition: all 0.2s ease-out;
-}
-
-@media screen and (max-width: 960px) {
-  /* .contact-container {
-    margin: 1.5rem auto;
-  } */
-}
-
-@media screen and (max-width: 768px) {
 }

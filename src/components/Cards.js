@@ -11,27 +11,27 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="images/movie-app2.png"
-              text="Movie overview app with an movie database API"
-              label="Movie App"
-              path="http://illegal-approval.surge.sh/"
+              text="React app with a movie database API"
+              label="Movies App"
+              path="http://movies.joeladving.com/"
             />
             <CardItem
               src="images/quire-better.png"
               text="A note taking app with local storage"
-              label="Quire.se"
-              path="http://quire.se/"
+              label="Note Taking"
+              path="http://quire.joeladving.com/"
             />
             <CardItem
               src="images/todolist.png"
-              text="Todo list app wth local strorage and current date"
+              text="Todo list app wth local strorage"
               label="Todo List"
-              path="https://github.com/Joel-Adving/todo-list-app"
+              path="http://todolist.joeladving.com/"
             />
             <CardItem
               src="images/portfolio.png"
               text="Portfolio website made with react"
               label="Portfolio"
-              path="https://github.com/Joel-Adving/portfolio-2020"
+              path="https://joeladving.com/"
             />
           </ul>
         </div>

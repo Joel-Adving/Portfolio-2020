@@ -1,9 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "./Contact.css";
-// import Navbar from "../Navbar.js";
 import Footer from "../Footer";
-// import Portfolio from "./Portfolio.css";
 
 export default function Contact() {
   return (
@@ -14,7 +12,7 @@ export default function Contact() {
         <div className="contact-item-wrapper">
           <a
             className="contact-item"
-            href="https://www.linkedin.com/in/joel-adving-3385571a0/"
+            href="https://se.linkedin.com/in/joel-adving-3385571a0"
           >
             Linked <i class="fab fa-linkedin-in fa-fw"></i>
           </a>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "./Button";
+import button from "./Button";
 import "./HeroSection.css";
 import "../App.css";
 import { Link } from "react-router-dom";
@@ -23,23 +23,6 @@ function HeroSection() {
           <Link to="/contact">
             <button className="btns btn--large btn--outline">Contact</button>
           </Link>
-
-          {/* <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-          >
-            Portfolio
-          </Button>
-        </div>
-        <div className="hero-btn">
-          <Button
-            className="btns"
-            buttonStyle="btn--outline"
-            buttonSize="btn--large"
-          >
-            Contact
-          </Button> */}
         </div>
       </div>
     </div>
