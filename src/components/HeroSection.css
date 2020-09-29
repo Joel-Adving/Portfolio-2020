@@ -6,6 +6,10 @@ video {
   z-index: -1;
 }
 
+video.loading {
+  background: white;
+}
+
 .hero-container {
   height: 100vh;
   width: 100%;
@@ -62,8 +66,8 @@ video {
 
 @media screen and (max-width: 768px) {
   .hero-container > p {
-    max-width: 220px;
-    font-size: 11px;
+    max-width: 270px;
+    font-size: 14px;
   }
 
   .hero-container > h1 {
@@ -82,5 +86,30 @@ video {
   .profile-image {
     margin-top: 3rem;
     height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-container > p {
+    max-width: 180px;
+    font-size: 11px;
+  }
+
+  .hero-container > h1 {
+    font-size: 1.3rem;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .profile-image {
+    margin-top: 2rem;
+    height: 120px;
   }
 }

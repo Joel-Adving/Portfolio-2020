@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="../videos/video1.mp4" autoPlay loop muted />
+      <video preload="auto" src="../videos/video1.mp4" autoPlay loop muted />
       <img className="profile-image" src="../images/profilbild.jpg" alt="" />
       <h1>Front End Developer</h1>
       <p>
-        Hi! My name is Joel, I'm a front end developer who loves to code
+        Hi! My name is Joel. I'm a front end developer who loves to code
         beautiful and functional websites. I'm currently studying at KYH in
-        Stockholm Sweden, and in search for an internship.
+        Stockholm, Sweden, and I'm in search of an internship.
       </p>
       <div className="button-container">
         <div className="hero-btn">

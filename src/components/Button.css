@@ -45,3 +45,15 @@
 button:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+
+  .btn--large {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
