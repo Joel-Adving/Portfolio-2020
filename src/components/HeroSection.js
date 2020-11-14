@@ -17,9 +17,11 @@ function HeroSection() {
       <h1>Front End Developer</h1>
       <p>
         Hi! My name is Joel. I'm a front end developer who loves to code
-        beautiful and functional websites. I'm currently studying at KYH in
-        Stockholm, Sweden, and I'm in search of an internship.
+        beautiful and functional websites. I'm currently working as an intern at
+        Redmind in Stockholm, Sweden.
       </p>
+      {/* Whilst studying at KYH in
+        Stockholm, Sweden. */}
       <div className="button-container">
         <div className="hero-btn">
           <Link to="/portfolio">

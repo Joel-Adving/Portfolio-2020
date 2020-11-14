@@ -10,6 +10,12 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src="images/netflix-clone.png"
+              text="Netflix-clone made with react"
+              label="Netflix"
+              path="http://netflix-clone.joeladving.com/"
+            />
+            <CardItem
               src="images/movie-app2.png"
               text="App with a movie database API"
               label="Movies app"

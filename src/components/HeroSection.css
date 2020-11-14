@@ -33,6 +33,7 @@ video.loading {
   font-size: 2.5rem;
   margin-top: 0.8rem;
   font-weight: 500;
+  background: rgba(0, 0, 0, 0.164);
 }
 
 .hero-container > p {
@@ -42,6 +43,8 @@ video.loading {
   font-size: 1rem;
   font-weight: 200;
   max-width: 600px;
+  background: rgba(0, 0, 0, 0.164);
+  border-radius: 7px;
 }
 
 .button-container {
