@@ -8,16 +8,14 @@ import Portfolio from "./components/pages/Portfolio";
 
 function App() {
   return (
-    <>
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/portfolio" component={Portfolio} />
-        </Switch>
-      </Router>
-    </>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/portfolio" component={Portfolio} />
+      </Switch>
+    </Router>
   );
 }
 

@@ -12,19 +12,25 @@ function Cards() {
             <CardItem
               src="images/movie-app2.png"
               text="App with a movie database API"
-              label="Movies App"
+              label="Movies app"
               path="http://movies.joeladving.com/"
             />
             <CardItem
+              src="images/chat3.png"
+              text="Chat room app made with react and firebase"
+              label="Chat room"
+              path="https://chatroom-app-3f006.web.app/"
+            />
+            <CardItem
               src="images/quire-better.png"
-              text="A note taking app with local storage"
-              label="Note Taking"
+              text="A text editor app with local storage"
+              label="Text editor"
               path="http://quire.joeladving.com/"
             />
             <CardItem
               src="images/todolist.png"
               text="Todo list app wth local strorage"
-              label="Todo List"
+              label="Todo list"
               path="http://todolist.joeladving.com/"
             />
             <CardItem

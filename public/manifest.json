@@ -1,11 +1,21 @@
 {
-  "short_name": "Portfolio",
-  "name": "Joel Adving Portfolio",
+  "short_name": "portfolio",
+  "name": "Joel Adving | Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "logo-small.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "thumbnail2.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",

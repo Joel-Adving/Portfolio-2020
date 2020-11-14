@@ -11,8 +11,11 @@ function Icons() {
           <img className="icon" alt="" src="../images/css-svart.png" />
           <img className="icon" alt="" src="../images/js-svart.png" />
           <img className="icon" alt="" src="../images/react-svart.png" />
+          <img className="icon" alt="" src="../images/firebase.png" />
+          <img className="icon" alt="" src="../images/nodejs.png" />
           <img className="icon" alt="" src="../images/git-svart.png" />
           <img className="icon" alt="" src="../images/npm.png" />
+          <img className="icon" alt="" src="../images/mongodb.png" />
         </div>
       </div>
     </>
